@@ -2,7 +2,18 @@
 
 import sys
 
-with open('wordlist') as f:
+if len(sys.argv) < 2:
+    print 'usage: %s <letters> [wordlistfile]'
+    exit(2)
+
+letters = str(sys.argv[1])
+
+if len(sys.argv) > 2:
+    wordlist = str(sys.argv[2])
+else:
+    wordlist = 'wordlist'
+
+with open(wordlist) as f:
     words = filter(len, [line.strip() for line in f.readlines()])
 
 def letter_freq(word):
@@ -29,8 +40,6 @@ def search(letters):
     return match
 
 
-if len(sys.argv) > 1:
-    letters = str(sys.argv[1])
-    matches = search(letters)
-    for each in sorted(matches, key=len):
-        print each
+matches = search(letters)
+for each in sorted(matches, key=len):
+    print each
