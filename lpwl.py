@@ -3,7 +3,7 @@
 import sys
 
 if len(sys.argv) < 2:
-    print 'usage: %s <letters> [wordlistfile]'
+    print 'usage: %s <letters> [wordlistfile]' % sys.argv[0]
     exit(2)
 
 letters = str(sys.argv[1])
