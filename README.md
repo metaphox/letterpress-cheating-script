@@ -13,10 +13,18 @@ yeah it does what you think it does.
     mic
     mib
 
+##Why are you doing this?!
+
+I… want to beat [@riobard](https://github.com/riobard) … so badly… the dark side of force… grrrrrhhh…
+
+##You have ruined the game!
+
+I am sorry.
+
 ##Where does the word list come from?
 
 Extracted from the app. No word is missing.
 
 ##Whats the most interesting word you have found so far in the list?
 
-"`Zzzs`".
+"`Zzzs`" and "`zombifications`"
