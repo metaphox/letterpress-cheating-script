@@ -25,6 +25,8 @@ I am sorry.
 
 Extracted from the app. No word is missing.
 
-##Whats the most interesting word you have found so far in the list?
+##What are the most interesting words you have found so far from the list?
 
-"`Zzzs`" and "`zombifications`"
+ * `Zzzs`
+ * `zombifications`
+ * `counterdemonstrations`, `hyperaggressivenesses`, and `microminiaturizations`
